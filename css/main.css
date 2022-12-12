@@ -42,10 +42,13 @@
 }
 
 html {
-        font-family: 'Inter', sans-serif;
-
-        
+        font: 400 1rem/1.9em 'Inter', sans-serif;
+        text-align: center;
+ 
 }
+
+
+
 
 @media screen and (min-width: 768px) {
 
@@ -58,6 +61,40 @@ html {
 /*--------------------------------------------------------------
    4.0 - ELEMENTS
 -------------------------------------------------------------- */
+
+
+h1,
+h2,
+a,
+header div:last-child {
+        text-transform: uppercase;
+}
+
+/* ----- typography ----- */
+
+h1 {
+        font-size: 1.6rem;
+        font-weight: 600;
+        margin: 3em 0 3.5em;
+}
+
+
+h2 {
+        font-size: 0.8rem;
+        margin: 1.1em 0 0; 
+}
+
+ul { 
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+}
+
+
+a {
+        text-decoration: none;
+        font-size: 0.8rem;    
+}
 
 
 @media screen and (min-width: 768px) {
@@ -88,7 +125,7 @@ html {
 }
 
 .img-responsive {
-        max-width: 100%;
+        max-width: 60%;
 }
 
 [class*='col-'] {
@@ -286,7 +323,141 @@ html {
 6.0 - COMPONENTS
 -------------------------------------------------------------- */
 
+header li,
+footer > div:first-child li {
+        display: inline-block;
+}
 
+#home > header,
+#hero-home div,
+footer > div:first-child {
+        background-color: #FFFA8E;
+}
+
+/* ----- Header----- */
+
+
+
+
+#hero-home {
+        background: url(../img/hero-home.jpg) no-repeat center;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        -ms-background-size: cover;
+        background-size: cover;
+        padding: 5em 0 1em;
+}
+
+#hero-programs {
+        background: url(../img/hero-programs.jpg) no-repeat center;
+        -moz-background-size: contain;
+        -webkit-background-size: contain;
+        -o-background-size: contain;
+        -ms-background-size: contain;
+        background-size: contain;
+        height: 17em;
+}
+
+
+
+/* ----- Main----- */
+
+
+#junior {
+        background: url(../img/junior.jpg) no-repeat center;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        -ms-background-size: cover;
+        background-size: cover;
+        height: 7em;
+}
+
+#acrylic {
+        background: url(../img/acrylic.jpg) no-repeat center;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        -ms-background-size: cover;
+        background-size: cover;
+        height: 7em;
+        
+}
+
+#founder {
+        background: url(../img/founder.jpg) no-repeat center;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        -ms-background-size: cover;
+        background-size: cover;
+        height: 7em;
+}
+
+#trainer {
+        background: url(../img/trainer.jpg) no-repeat center;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        -ms-background-size: cover;
+        background-size: cover;
+        height: 7em;
+}
+
+#foundation {
+        background: url(../img/foundation.jpg) no-repeat center;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        -ms-background-size: cover;
+        background-size: cover;
+        height: 7em;
+}
+
+#basic {
+        background: url(../img/basic.jpg) no-repeat center;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        -ms-background-size: cover;
+        background-size: cover;
+        height: 7em;
+}
+
+#intermidiate {
+        background: url(../img/inermidiate.jpg) no-repeat center;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        -ms-background-size: cover;
+        background-size: cover;
+        height: 7em;
+}
+
+#comic {
+        background: url(../img/comic.jpg) no-repeat center;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        -ms-background-size: cover;
+        background-size: cover;
+        height: 7em;
+}
+
+
+#clay {
+
+        background: url(../img/clay.jpg) no-repeat center;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        -ms-background-size: cover;
+        background-size: cover;
+        height: 7em;
+
+}
+/* ----- Footer----- */
 
 
 
